@@ -1,0 +1,32 @@
+.main {
+	height: 100vh;
+	width: 100wh;
+	background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.end {
+	background: rgb(0, 0, 0);
+	height: 9rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.end div {
+	color: wheat;
+	font-size: 1rem;
+	/* line-break: auto; */
+	text-align: center;
+}
+.first {
+	color: wheat;
+	margin: 1rem 0rem 1rem;
+	font-size: 1.5rem;
+	letter-spacing: 1rem;
+}
+@media (max-width: 500px) {
+	.end {
+		height: 12rem;
+	}
+}

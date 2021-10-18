@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+.body {
+}
+.name {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.mainname {
+	/* background-color: aqua; */
+	color: aliceblue;
+	margin-top: 10%;
+	font-family: 'Ephesis', 'Courier New', Courier, monospace;
+	font-size: 15rem;
+	font-weight: 600;
+	letter-spacing: 0.4rem;
+	transition: 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.other {
+	/* background: #000; */
+	height: 4rem;
+	color: aliceblue;
+	margin-top: -3rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.other a {
+	margin-left: 1rem;
+	font-size: 2rem;
+	text-decoration: none;
+	color: aliceblue;
+}
+.mainname:hover {
+	color: rgb(226, 75, 75);
+	cursor: pointer;
+}
+.game:hover {
+	color: rgb(226, 75, 75);
+	font-size: 2.4rem;
+	cursor: pointer;
+}
+.web:hover {
+	/* color: rgb(60, 195, 7);
+	 */
+	color: rgb(75, 226, 75);
+	font-size: 2.4rem;
+	cursor: pointer;
+}
+.dev:hover {
+	color: rgb(226, 75, 75);
+	font-size: 2rem;
+	cursor: pointer;
+}
+.other a {
+	transition: 200ms ease-in-out;
+}
+@media (max-width: 900px) {
+	.mainname {
+		font-size: 8rem;
+	}
+
+	@media (max-width: 650px) {
+		.mainname {
+			font-size: 8rem;
+		}
+		.other {
+			margin-top: -2rem;
+		}
+	}
+	@media (max-width: 500px) {
+		.mainname {
+			font-size: 6rem;
+		}
+		.other {
+			margin-top: -1rem;
+		}
+	}
+}
+@media (max-width: 350px) {
+	.mainname {
+		font-size: 4rem;
+	}
+	.other {
+		margin-top: -0.5rem;
+	}
+}
